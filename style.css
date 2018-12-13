@@ -1,0 +1,145 @@
+h2 {
+    text-align: Left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    display: block;
+    color:#4aaaa5
+}
+
+img {
+    float: left;
+    }
+article{
+    color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+    
+
+body {
+    background-color:#bbbb;
+    margin: 0;
+}
+
+#footer {
+    background-color: #666666;
+    clear:both;
+    margin-top: 20px;
+    border-top: 1px solid black;
+    padding: 20px 0px;
+    font-size: 100%;
+    text-align: center;
+}
+
+header h1 { 
+    float: left;
+    padding-left: 1em;
+    background: #4aaaa5;
+}
+
+#header-container{
+    background-color:white;
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+
+    
+    
+       
+}
+
+
+h1 {
+    
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;}
+
+ul {
+    list-style-type: none;
+    padding:0;
+    display: block;
+    
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+     }
+
+nav {float:right}
+
+
+
+li {display: inline;
+    margin-left: 10px;
+}
+
+#make {
+    background-color: #4aaaa5；
+    }
+#food {background-color: #4aaaa5}
+#animal {background-color: #4aaaa5}
+#travel {background-color: #4aaaa5}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    height: 350px;
+    width: 300px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    padding: 10px;
+}
+.text {
+    background-color: #4aaaa5;
+    color: white;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 1px solid black;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-container form * {
+    margin-left: 15px;
+}
+.containerodd{ 
+    float: left;
+    margin-right: 20px;
+}
+.containereven{ 
+    float: left;
+}
+.containerpretty{
+    display: table-row-group;
+}
+.containerugly{
+    display: table-row-group;
+}
+
+@media screen and (max-width: 980px) {}
+@media screen and (max-width: 768px){}
+@media screen and (max-width: 640px) {
+    nav {width: 100%;;
+    float: none;}
+}
